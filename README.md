@@ -1,4 +1,4 @@
-# Bot for Discord communities to facilitate crypto coin tipping!
+﻿# Bot for Discord communities to facilitate crypto coin tipping!
 (This README will be updated along with bot updates)
 
 Features:
@@ -8,9 +8,9 @@ Features:
 - **out of the box Supported Coins**
     - Dogecoin (DOGE)
     - AustraliaCash (AUS)
+    - Genix (GENIX)
     - LBRY Credits (LBC)
     - Uniform Fiscal Object (UFO)
-    - ~~Proton (PROTON)~~ Phase(PHASE)
     - Phoenixcoin (PXC)
     - Feathercoin (FTC)
     - Vertical (VTL)
@@ -44,7 +44,7 @@ https://discordapp.com/oauth2/authorize?client_id=INSERT_CLIENT_ID_HERE&scope=bo
       "config":
         "port": 3335,
         "user": "username",
-        "pass": "Do-Not-Use-This-Password-Youll-Be-Hacked-For-all-Teh-Moneys!"
+        "pass": "Change to something secure!"
       }
     },
     ```
@@ -113,7 +113,7 @@ https://discordapp.com/oauth2/authorize?client_id=INSERT_CLIENT_ID_HERE&scope=bo
 
     1) this may throw some errors on some systems not all packages are required for some systems, the bot will still run unless it's an absolutely needed dependency.
 
-3) start the bot with `yarn start` or `pm2 start ecosystem.config.js` in the bots root directory
+3) start the bot with `yarn start` or `pm2 start ecosystem.config.js` and `pm2 update` in the bots root directory
 
 ### Development
 
