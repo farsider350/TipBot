@@ -371,9 +371,9 @@ function getValidatedAmount(amount) {
 }
 
 function txLink(txId) {
-  return 'https://ausescoin.network/tx/' + txId;
+  return 'https://auscashexplorer/tx/' + txId;
 }
 
 function addyLink(address) {
-  return 'https://ausescoin.network/address/' + address;
+  return 'https://auscashexplorer.org/address/' + address;
 }
