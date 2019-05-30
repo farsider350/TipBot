@@ -77,7 +77,7 @@ bot.on('ready', function() {
         'tiphelp in Discord for a commands list.'
     );
   bot.user.setActivity(config.prefix + 'Intialized!');
-  var text = ['tipaus', 'tipdoge', 'tiplbc', 'tipufo', 'tipphase', 'tippxc', 'tipftc', 'tipvtl', 'tiphelp'];
+  var text = ['tipaus', 'tipgenix', 'tipdoge', 'tiplbc', 'tipufo', 'tipphase', 'tippxc', 'tipftc', 'tipvtl', 'tiphelp'];
   var counter = 0;
   setInterval(change, 10000);
 
